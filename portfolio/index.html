@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" type="image/x-icon" href="src/favicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Prata&family=Roboto:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/b2b8ea5474.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <picture>
+          <img src="/portfolio/src/Group 13.png" alt="#" />
+        </picture>
+      </div>
+
+      <nav>
+        <button id="mob_button">
+          <span class="material-icons">menu</span>
+        </button>
+        <ul>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#about">About me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact me</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="first">
+        <h1>Marina Zhivotova</h1>
+        <h2>Full Stack Web Developer</h2>
+      </section>
+      <section id="projects">
+        <h3>My Projects</h3>
+        <div class="container">
+          <div class="card">
+            <div class="face face1">
+              <div class="content">
+                <h5>Project 1</h5>
+              </div>
+            </div>
+            <div class="face face2">
+              <div class="content_description">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <p>HTML, CSS, Java Script</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="face face1">
+              <div class="content">
+                <h5>Project 2</h5>
+              </div>
+            </div>
+            <div class="face face2">
+              <div class="content_description">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <p>HTML, CSS, Java Script</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="face face1">
+              <div class="content">
+                <h5>Project 3</h5>
+              </div>
+            </div>
+            <div class="face face2">
+              <div class="content_description">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <p>HTML, CSS, Java Script</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about">
+        <h3>About me</h3>
+        <div class="about_me">
+          <h4>Hi there 👋 I'm Marina</h4>
+          <div class="aboutme_description">
+            <p>🌱 I’m currently learning at Business College Helsinki</p>
+            <p>🤖 Doing Full Stack Web Developer program from autumn 2022.</p>
+            <p>👽 Enjoy fiction books and movies.</p>
+            <p>🌿 Love beautiful Finland and learning the Finnish language.</p>
+          </div>
+        </div>
+      </section>
+      <section id="skills">
+        <h3>Skills</h3>
+
+        <div class="skills_container">
+          <i class="fa-brands fa-js skill_icon"></i>
+          <div class="progress">
+            <div class="progress-value1"></div>
+          </div>
+
+          <i class="fa-brands fa-css3-alt skill_icon"></i>
+          <div class="progress">
+            <div class="progress-value2"></div>
+          </div>
+
+          <i class="fa-brands fa-html5 skill_icon"></i>
+          <div class="progress">
+            <div class="progress-value3"></div>
+          </div>
+
+          <i class="fa-brands fa-react skill_icon"></i>
+          <div class="progress">
+            <div class="progress-value4"></div>
+          </div>
+        </div>
+      </section>
+      <section id="gallery">
+        <h3>Gallery</h3>
+        <div class="grid_container">
+          <div class="box box1">
+            <img
+              src="/portfolio/src/omar-flores-lQT_bOWtysE-unsplash.jpg"
+              alt="#"
+            />
+          </div>
+          <div class="box box2">
+            <img
+              src="/portfolio/src/nick-fewings-PTw_2g55U8w-unsplash.jpg"
+              alt="#"
+            />
+          </div>
+          <div class="box box3">
+            <img
+              src="/portfolio/src/mike-meyers-LcZnOtKtOUc-unsplash.jpg"
+              alt="#"
+            />
+          </div>
+          <div class="box box4">
+            <img
+              src="/portfolio/src/daria-sheveleva-_sue1D9nFCM-unsplash.jpg"
+              alt="#"
+            />
+          </div>
+          <div class="box box5">
+            <img
+              src="/portfolio/src/alessandra-caretto-cAY9X4rPG3g-unsplash.jpg"
+              alt="#"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="contact">
+      <div class="footer_waves"></div>
+
+      <form name="form" method="post" id="form_message">
+        <h3>Contact me</h3>
+        <div class="contact_form">
+          <label for="name">Your name</label>
+          <input type="text" id="name" placeholder="Enter your name" />
+          <label for="email">Email</label>
+          <input type="email" placeholder="Enter your email" id="email" />
+          <label for="textarea">Message</label>
+          <textarea id="textarea" name="textarea" rows="4" cols="50">
+Your questions or comments</textarea
+          >
+          <div class="btn_icons">
+            <button class="btn_send">Send</button>
+            <div class="social_media">
+              <ul>
+                <li>
+                  <a href="https://github.com/marinezh">
+                    <i class="fa-brands fa-github-alt"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa-brands fa-facebook"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </form>
+
+      <button class="btn" id="back_to_top">
+        <span class="material-icons"> arrow_upward </span>
+      </button>
+
+      <!--Content before waves-->
+      <!-- CODE from https://animatedbackgrounds.me/#model7 -->
+
+      <div class="inner-header flex"></div>
+
+      <!--Waves Container-->
+      <div>
+        <svg
+          class="waves"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          viewBox="0 24 150 28"
+          preserveAspectRatio="none"
+          shape-rendering="auto"
+        >
+          <defs>
+            <path
+              id="gentle-wave"
+              d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"
+            />
+          </defs>
+          <g class="parallax">
+            <use
+              xlink:href="#gentle-wave"
+              x="48"
+              y="0"
+              fill="rgb(17,35,56,0.7"
+            />
+            <use
+              xlink:href="#gentle-wave"
+              x="48"
+              y="3"
+              fill="rgb(17,35,56,0.5)"
+            />
+            <use
+              xlink:href="#gentle-wave"
+              x="48"
+              y="5"
+              fill="rgb(17,35,56,0.3)"
+            />
+            <use xlink:href="#gentle-wave" x="48" y="7" fill="#112338" />
+          </g>
+        </svg>
+      </div>
+
+      <div class="content_footer flex">
+        <p>Copyright &copy 2022</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
